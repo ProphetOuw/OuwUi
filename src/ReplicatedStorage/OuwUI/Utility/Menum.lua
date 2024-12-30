@@ -1,5 +1,0 @@
-return {
-	ListenerType = {
-		ApplyProperty = "ApplyProperty";
-	};
-}
