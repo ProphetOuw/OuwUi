@@ -1,0 +1,30 @@
+{
+  "name": "OuwUiPlace",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/client"
+        }
+      }
+    }
+
+  }
+}

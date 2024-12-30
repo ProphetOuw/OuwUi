@@ -7,7 +7,7 @@ You can use this module in any setup, or code block, but the ideal setup would b
 local OuwUI = require(script.Parent.OuwUI)
 return function(Parent,...)
     return function() --cleanup function
-
+        
     end
 end
 ```
