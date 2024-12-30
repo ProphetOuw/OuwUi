@@ -158,7 +158,7 @@ export type ScopeType = {
 	Create: (Name: string) -> ((Properties: InstanceProperties) ->()),
 	Hydrate: (Instance: Instance, Properties: InstanceProperties) -> (),
 	Extend: () -> ScopeType,
-	Value: (...any) -> {Default: any, Changed: RBXScriptSignal,NewAdded: () -> any,NewRemoved: () -> any ,AddWithIndex: (self, index: any, value:any) -> ()},
+	Value: (...any) -> {Default: any, Changed: RBXScriptSignal,SkipToDefault: (self) -> (),NewAdded: () -> any,NewRemoved: () -> any ,AddWithIndex: (self, index: any, value:any) -> ()},
 	SpringInfo: (Time: number,Frequency: number,Damping: number,RepeatAmount: number,Reverse:boolean,DelayTime: number) -> any,
 	TweenInfo: (Time: number,EasingStyle: string,EasingDirection: string,RepeatAmount: number,Reverse:boolean,DelayTime: number) -> any,
 	Spring: (Value: any, SpringInfo: SpringInfo, Indexes: {}) -> any,
